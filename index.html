@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sulle...</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Login View -->
+        <section id="login-view" class="view active">
+            <div class="glass-card login-card">
+                <div class="login-header">
+                    <h1>Tere tulemast</h1>
+                </div>
+                <form id="login-form">
+                    <div class="input-group">
+                        <label for="username">Kasutajanimi</label>
+                        <input type="text" id="username" placeholder="Kasutajanimi" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Parool</label>
+                        <input type="password" id="password" placeholder="Parool" required>
+                    </div>
+                    <button type="submit" class="btn-primary">Logi sisse</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Landing View -->
+        <section id="landing-view" class="view">
+            <div class="glass-card message-card">
+                <h2 class="title-romantic">Ilusat päeva sulle Mirell!</h2>
+                <div class="message-content">
+                    <p class="highlight">Sa oled nii nunnu! ✨</p>
+                </div>
+                <div class="decor-line"></div>
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
